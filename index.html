@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet type="text/css" href="assets/css/style.css">
     <title>SEO</title>
 </head>
@@ -11,41 +12,45 @@
     <header class="header">
         <div class="container">
             <nav class="nav">
-                <a href="#" class="nav__link font-rw-sm">PRICING</a>
-                <a href="#" class="nav__link font-rw-sm">SUPPORT</a>
-                <a href="#" class="nav__link font-rw-sm">ABOUT</a>
-                <a href="#" class="nav__link font-rw-sm">BLOG</a>
-                <a href="#" class="nav__link font-rw-sm">LOGIN</a>
-                <a href="#" class="nav__link nav__btn btn font-rw-sm">SIGN UP</a>
+                <a href="#" class="nav__link font-rw-sm" data-word="PRICING">PRICING</a>
+                <a href="#" class="nav__link font-rw-sm" data-word="SUPPORT">SUPPORT</a>
+                <a href="#" class="nav__link font-rw-sm" data-word="ABOUT">ABOUT</a>
+                <a href="#" class="nav__link font-rw-sm" data-word="BLOG">BLOG</a>
+                <a href="#" class="nav__link font-rw-sm" data-word="LOGIN">LOGIN</a>
+                <a href="#" class="nav__link nav__btn btn"><span class="font-rw-sm">SIGN UP</span></a>
             </nav>
         </div>
     </header>
     
     <section class="title">
         <div class="container">
-            <h1>SEO Backlink be Ranked 1</h1>
-            <p class="font-ro-md">Were the top marketplace for service providers. Wheter you need home cleaning or a personal trainer we let you compare and book top local business - Completely free.</p>
-            <button class="btn title__btn font-rw-md">EXPLORE OUR SERVICES</button>
+            <div class="col">
+                <h1>SEO Backlink be Ranked 1</h1>
+                <p class="font-ro-md">Were the top marketplace for service providers. Wheter you need home cleaning or a personal trainer we let you compare and book top local business - Completely free.</p>
+                <button class="btn title__btn font-rw-md">EXPLORE OUR SERVICES</button>
+            </div>
         </div>
     </section>
 
     <section class="services">
         <div class="container">
-            <div class="row">
-                <div class="services__item col">
-                    <img src="assets/img/services-img-1.png" alt="services-1" class="services__img">
-                    <h4>1. Choose a Service</h4>
-                    <p class="font-ro-sm">Find anything youre looking for. Home cleaning, laundry, or a fitness trainer. Save time - get more done.</p>
-                </div>
-                <div class="services__item col">
-                    <img src="assets/img/services-img-2.png" alt="services-2" class="services__img">
-                    <h4>2. Compare Businesses</h4>
-                    <p class="font-ro-sm">Find the provider fits you best. Never settle with the top 10% of local business. No fly-by-night providers.</p>
-                </div>
-                <div class="services__item col">
-                    <img src="assets/img/services-img-3.png" alt="services-3" class="services__img">
-                    <h4>3. Book your provider</h4>
-                    <p class="font-ro-sm">Easy payments with simple booking. Never leave the SwiftBook platform.Book same day or for the future.</p>
+            <div class="services__container"  data-mobile="false">
+                <div class="row services__content">
+                    <div class="services__item col">
+                        <img src="assets/img/services-img-1.png" alt="services-1" class="services__img">
+                        <h4>1. Choose a Service</h4>
+                        <p class="font-ro-sm">Find anything youre looking for. Home cleaning, laundry, or a fitness trainer. Save time - get more done.</p>
+                    </div>
+                    <div class="services__item col">
+                        <img src="assets/img/services-img-2.png" alt="services-2" class="services__img">
+                        <h4>2. Compare Businesses</h4>
+                        <p class="font-ro-sm">Find the provider fits you best. Never settle with the top 10% of local business. No fly-by-night providers.</p>
+                    </div>
+                    <div class="services__item col">
+                        <img src="assets/img/services-img-3.png" alt="services-3" class="services__img">
+                        <h4>3. Book your provider</h4>
+                        <p class="font-ro-sm">Easy payments with simple booking. Never leave the SwiftBook platform.Book same day or for the future.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -90,21 +95,23 @@
             <div class="col">
                 <h3>Weve helped over 600 clients achieve</h3>
                 <img src="assets/img/bg-4.png" alt="helped" class="helped__img">
-                <div class="row">
-                    <div class="helped__item">
-                        <img src="assets/img/1920px-World-Wildlife-Fund-Vector-Logo 1.png" alt="WWF" class="helped__item-img">
-                    </div>
-                    <div class="helped__item">
-                        <img src="assets/img/1200px-Intuit_Logo 1.png" alt="WWF" class="helped__item-img">
-                    </div>
-                    <div class="helped__item">
-                        <img src="assets/img/Mondelez logo_i 1.png" alt="WWF" class="helped__item-img">
-                    </div>
-                    <div class="helped__item">
-                        <img src="assets/img/загруженное 1.png" alt="WWF" class="helped__item-img">
-                    </div>
-                    <div class="helped__item">
-                        <img src="assets/img/batman-logo-images-145374-8692907 1.png" alt="WWF" class="helped__item-img">
+                <div class="helped__container" data-mobile="false">
+                    <div class="helped__content">
+                        <div class="helped__item">
+                            <img src="assets/img/1920px-World-Wildlife-Fund-Vector-Logo 1.png" alt="WWF" class="helped__item-img">
+                        </div>
+                        <div class="helped__item">
+                            <img src="assets/img/1200px-Intuit_Logo 1.png" alt="WWF" class="helped__item-img">
+                        </div>
+                        <div class="helped__item">
+                            <img src="assets/img/Mondelez logo_i 1.png" alt="WWF" class="helped__item-img">
+                        </div>
+                        <div class="helped__item">
+                            <img src="assets/img/загруженное 1.png" alt="WWF" class="helped__item-img">
+                        </div>
+                        <div class="helped__item">
+                            <img src="assets/img/batman-logo-images-145374-8692907 1.png" alt="WWF" class="helped__item-img">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -176,5 +183,8 @@
             <button class="btn footer-footer__btn">THANKS FOR WATCHING <img src="assets/img/ico-smile.svg" alt=""></button>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
